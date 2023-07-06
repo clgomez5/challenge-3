@@ -24,22 +24,25 @@ var mygeneratedPassword = {
   lCase: ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
   uCase: "ABCDEFGHIJKLMNOPQRSTUV".split(""),
   special: "!@#*$".split(""),
-  saysYes: true,
 }
-
-var x = 8;
 
 console.log(mygeneratedPassword)
 
+function mygeneratedPassword (length = 8); {
+  var password = " ";
+  var options = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%*()?ABCDEFGHIJKLMNOPQRSTUVWZYZ";
+  var passLength = 8
+}
+
 function generatePassword () {
   mygeneratedPassword = window.prompt("How many characters do you want your password?");
-  if ( x >= 8 && 128 ) {
+  if ( password = math.random(options) ) {
     window.prompt("Do you want a lowercase character?");
   }
-
-
   return mygeneratedPassword;
 }
+
+
 
 
 generatePassword ();
