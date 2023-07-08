@@ -26,21 +26,41 @@ var mygeneratedPassword = {
   special: "!@#*$".split(""),
 }
 
+function generatePassword () {
+  var mygeneratedPassword = "";
+  window.prompt("How many characters do you want your password?");
+  
+    window.alert("Do you want lowercase letters?");
+
+    window.alert("Do you want a uppercase character?");
+
+    window.alert("Do you want a number?");
+
+    window.alert("Do you want special characters?");
+
+  return mygeneratedPassword;    
+    }
+
+  
+
+ 
+  
+
+
+
+
 console.log(mygeneratedPassword)
 
-function mygeneratedPassword (length = 8); {
+function mygeneratedPassword (length = 8) {
   var password = " ";
   var options = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%*()?ABCDEFGHIJKLMNOPQRSTUVWZYZ";
   var passLength = 8
 }
 
-function generatePassword () {
-  mygeneratedPassword = window.prompt("How many characters do you want your password?");
-  if ( password = math.random(options) ) {
-    window.prompt("Do you want a lowercase character?");
-  }
-  return mygeneratedPassword;
-}
+var expression1 = (passLength >= 8);
+
+
+
 
 
 
